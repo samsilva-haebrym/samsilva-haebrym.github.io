@@ -1,0 +1,174 @@
+@charset "utf-8";
+h1 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size: xx-large;
+    text-align: center;
+    color: #000000
+
+
+	background-color:
+		
+color: #000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #D9D9D7;
+    border-width: thin;
+    border-style: solid;
+}
+h2 {
+    text-align: center;
+    color: #000000;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    width: auto;
+    height: auto;
+    font-size: x-large;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: undefined;
+}
+nav {
+    color: #000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    word-spacing: 10px;
+    border-width: thin;
+    border-style: solid;
+    background-color: #D9D9D7;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    line-height: 30px;
+}
+body   {
+    color: #000000;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-shadow: 0px 0px #FFFFFF;
+    height: auto;
+    background-origin: padding-box;
+    background-attachment: fixed;
+    background-size: auto auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: #F1CF1B;
+    border-width: thin;
+    border-style: solid;
+	}
+
+p {
+    font-size: x-large;
+    color: #000000;
+    font-weight: bold;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 0px 0px #000000;
+    background-color: #D9D9D7;
+    border: thin solid #000000;
+    line-height: 30px;
+    text-align: left;
+}
+ul {
+    color: #000000;
+    font-size: x-large;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+li {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: #000000;
+    font-size: x-large;
+    font-weight: bold;
+    list-style-position: inside;
+    text-align: justify;
+    background-color: #D9D9D7;
+    border-width: thin;
+    border-style: solid;
+    line-height: 30px;
+}
+body {
+}
+body center img {
+    height: auto;
+    max-width: 80%;
+    text-align: justify;
+    border-width: thin;
+    border-style: solid;
+    margin-bottom: 50px;
+}
+body {
+    font-size: 14px;
+}
+form {
+    color: #000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+fieldset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    margin-left: 5px;
+}
+legend {
+    color: #000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight: bold;
+	
+}
+div.formRow{
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px 0px
+}
+div.formRow > *{
+	flex: 1 1 150px
+}
+form#survey > fieldset {
+	background-color: rgba(255,255,255,1.00)
+    border-radius: 20px;
+    flex: 1 1 300px;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D9D9D7;
+}
+textarea {
+    margin-top: 0px;
+    height: 100px;
+    width: 95%;
+    margin-bottom: 10px;
+}
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
